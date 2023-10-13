@@ -58,14 +58,14 @@ public class WhenWorkingWithSets {
         Set<String> colors = new HashSet<>();
 
         // TODO: Change this code so that it correctly determines whether the set is empty
-        Boolean startedEmpty = true;
+        Boolean startedEmpty = colors.isEmpty();
 
         colors.add("red");
         colors.add("green");
         colors.add("blue");
 
         // TODO: Change this code so that it correctly determines whether the set now empty or not
-        Boolean endedUpEmpty = false;
+        Boolean endedUpEmpty = colors.isEmpty();
 
         assertThat(startedEmpty).isTrue();
         assertThat(endedUpEmpty).isFalse();

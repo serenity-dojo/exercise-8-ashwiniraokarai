@@ -48,6 +48,7 @@ public class WhenWorkingWithLists {
 
         // TODO: Add "yellow" to the END of this list
         colors.add(3,"yellow");
+        //or simply colors.add("yellow");
         assertThat(colors).containsExactly("red", "green", "blue", "yellow");
     }
 
